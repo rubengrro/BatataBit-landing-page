@@ -1,0 +1,57 @@
+main {
+    width: 100%;
+    height: auto;
+    background-color: $off-white;
+}
+.scroll-tables-container {
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: proximity;
+    width: 100%;
+}
+.main-exchange-container{ 
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    scroll-snap-align: center;
+    &--title {
+        width: 90%;
+        min-width: 28.8rem;
+        max-width: 90rem;
+        margin: 0 auto;
+    }
+    & h2 {
+        margin-bottom: 3rem;
+        font-size: 2.4rem;
+        font-weight: bold;
+        line-height: 2.6rem;
+        color: $black;
+    }
+    & p {
+        margin-bottom: 3rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.6rem;
+        color: #757575;
+    }
+}
+
+.backgroundImg {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url(../assets/img/Bitcoin.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@import "tables.scss";
+@import "benefits.scss";
+@import "cards.scss";
+@import "wildcard.scss";
+@import "plans.scss";

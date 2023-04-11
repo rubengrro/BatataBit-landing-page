@@ -1,0 +1,38 @@
+.main-product--detail {
+    position: relative;
+    width: 100%;
+    min-width: 32rem;
+    height: auto;
+    padding: 2rem 1rem;
+    background-color: $warm-black;
+    &__batata-logo {
+        position: absolute;
+        width: 4rem;
+        height: 2.5rem;
+        top: -1rem;
+        left: calc(50% - 2rem);
+        background-image: url(../assets/icons/batata.svg);
+    }
+    &__title {
+        width: 90%;
+        min-width: 28.8rem;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 5rem;
+        text-align: center;
+        & h2 {
+            margin-bottom: 2rem;
+            font-size: 2.4rem;
+            font-weight: bold;
+            line-height: 2.6rem;
+            color: $just-white;
+        }
+        & p {
+            margin-bottom: 2rem;
+            font-size: 1.4rem;
+            font-weight: 500;
+            line-height: 1.8rem;
+            color: #808080;
+        }
+    }
+}

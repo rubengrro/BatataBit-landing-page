@@ -1,0 +1,99 @@
+
+
+.main-currency-table{
+    width: 70%;
+    min-width: 23.5rem;
+    max-width: 50rem;
+    height: 36rem;
+    margin: 0 auto;
+    font-family: $secondary-font;
+    & p{
+        margin-bottom: 1.5rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+        line-height: 2.3rem;
+        color: $bitcoin-orange;
+        span {
+            color: $secondary-blue;
+            text-align: center;
+        }
+    }
+    &--container {
+        width: 90%;
+        min-width: 23rem;
+        max-width: 30rem;
+        height: 25rem;
+        margin: 0 auto;
+        & table {
+            width: 100%;
+            height: 100%;
+        }
+        & td {
+            width: 50%;
+            font-size: 1.6rem;
+            font-weight: 500;
+            line-height: 1.9rem;
+            color: $grey;
+            background-color: $just-white;
+        }
+        & .table__top-left {
+            border-radius: 1.5rem 0 0 0;
+        }
+        & .table__top-right {
+            border-radius: 0 1.5rem 0 0;
+        }
+        & .table__bottom-left {
+            border-radius: 0 0 0 1.5rem;
+        }
+        & .table__bottom-right {
+            border-radius: 0 0 1.5rem 0;
+        }
+        & .table__right{
+            font-size: 1.4rem;
+            font-weight: normal;
+            line-height: 1.7rem;
+            color: #757575;
+        }
+        & .down {
+            display: inline-block;
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-left: 1rem;
+            background-image: url(../assets/icons/trending-down.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        & .up {
+            display: inline-block;
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-left: 1rem;
+            background-image: url(../assets/icons/trending-up.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+    &--date{
+        width: 19rem;
+        height: 3rem;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+        padding: .8rem;
+        background-color: $soft-orange;
+        border-radius: .8rem;
+        font-size: 1.2rem;
+        & p {
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+            color: $warm-black;
+            font-weight: 500;
+        }
+    }
+    & #blue-one {
+        background-color: rgb(220, 235, 240);
+    }
+}
+
+
